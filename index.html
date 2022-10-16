@@ -39,11 +39,11 @@
                             <a class="nav-link mx-4 fw-bold" aria-current="page" href="#">About Us</a>
                         </li>
 
-
                     </ul>
                     <form class="d-flex" role="register">
 
-                        <button class="btn btn-outline-info px-4 fs-5 fw-bold btn-white  " type="">Register</button>
+                        <button class="btn btn-outline-info px-4 fs-5 fw-bold btn-white  " data-bs-toggle="modal"
+                            data-bs-target="#exampleModal" type="">Register</button>
                     </form>
                 </div>
             </div>
@@ -361,7 +361,8 @@
                         </p>
                     </div>
                 </div>
-                <div class="col-lg-5 text-center d-flex align-items-center justify-content-md-center justify-content-sm-center justify-content-end ">
+                <div
+                    class="col-lg-5 text-center d-flex align-items-center justify-content-md-center justify-content-sm-center justify-content-lg-end justify-content-center ">
                     <div class=" py-3 ">
                         <button class="btn bg-white  " data-bs-toggle="modal" data-bs-target="#exampleModal">
                             <h5 class="m-0 px-3 py-2 fw-bold text-info ">Register Now</h5>
@@ -370,107 +371,204 @@
                 </div>
             </div>
 
+            <!-- Modal -->
+            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog modal-xl">
+                    <div class="modal-content border-0 rounded-5">
+
+                        <div class="modal-body bg-info rounded-4 ">
+                            <section class=" ">
+                                <div class="container h-100">
+                                    <div class="row d-flex justify-content-center align-items-center h-100">
+                                        <div class="col-lg-12 col-xl-11">
+                                            <div class="card text-black" style="border-radius: 25px;">
+                                                <div class="card-body p-md-5">
+                                                    <div class="row justify-content-center">
+                                                        <div class="col-md-10 col-lg-6 col-xl-5 order-2 order-lg-1">
+
+                                                            <p class="text-center h1 fw-bold mb-5 mx-1 mx-md-4 mt-4">
+                                                                Sign up
+                                                            </p>
+
+                                                            <form class="mx-1 mx-md-4">
+
+                                                                <div class="d-flex flex-row align-items-center mb-4">
+                                                                    <i class="fa-solid fa-user me-3 fa-fw"></i>
+                                                                    <div class="form-outline flex-fill mb-0">
+                                                                        <input type="text" id="form3Example1c"
+                                                                            class="form-control"
+                                                                            placeholder="Your Name" />
+
+                                                                    </div>
+                                                                </div>
+
+                                                                <div class="d-flex flex-row align-items-center mb-4">
+                                                                    <i class="fas fa-envelope fa-lg me-3  fa-fw"></i>
+                                                                    <div class="form-outline flex-fill mb-0">
+                                                                        <input type="email" id="form3Example3c"
+                                                                            class="form-control"
+                                                                            placeholder="Your Email" />
+
+                                                                    </div>
+                                                                </div>
+
+                                                                <div class="d-flex flex-row align-items-center mb-4">
+                                                                    <i class="fas fa-lock fa-lg me-3 fa-fw"></i>
+                                                                    <div class="form-outline flex-fill mb-0">
+                                                                        <input type="password" id="form3Example4c"
+                                                                            class="form-control"
+                                                                            placeholder="Password" />
+
+                                                                    </div>
+                                                                </div>
+
+                                                                <div class="d-flex flex-row align-items-center mb-4">
+                                                                    <i class="fas fa-key fa-lg me-3 fa-fw"></i>
+                                                                    <div class="form-outline flex-fill mb-0">
+                                                                        <input type="password" id="form3Example4cd"
+                                                                            class="form-control"
+                                                                            placeholder="Repeat your password" />
+
+                                                                    </div>
+                                                                </div>
+
+                                                                <div
+                                                                    class="form-check d-flex justify-content-center mb-5">
+                                                                    <input class="form-check-input me-2" type="checkbox"
+                                                                        value="" id="form2Example3c" />
+                                                                    <label class="form-check-label" for="form2Example3">
+                                                                        I agree all statements in <a href="#!">Terms of
+                                                                            service</a>
+                                                                    </label>
+                                                                </div>
+
+                                                                <div
+                                                                    class="d-flex justify-content-center mx-4 mb-3 mb-lg-4">
+                                                                    <button type="button"
+                                                                        class="btn btn-primary btn-lg">Register</button>
+                                                                </div>
+
+                                                            </form>
+
+                                                        </div>
+                                                        <div
+                                                            class="col-md-10 col-lg-6 col-xl-7 d-flex align-items-center order-1 order-lg-2">
+
+                                                            <img src="./images/registration.png" class="img-fluid"
+                                                                alt="Sample image">
+
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </section>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+            <!-- modal end  -->
+
         </article>
 
 
 
-        <!-- Modal -->
-  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-    <div class="modal-dialog modal-xl">
-      <div class="modal-content border-0 rounded-5">
-       
-        <div class="modal-body bg-info rounded-4 ">
-            <section class=" " >
-                <div class="container h-100">
-                  <div class="row d-flex justify-content-center align-items-center h-100">
-                    <div class="col-lg-12 col-xl-11">
-                      <div class="card text-black" style="border-radius: 25px;">
-                        <div class="card-body p-md-5">
-                          <div class="row justify-content-center">
-                            <div class="col-md-10 col-lg-6 col-xl-5 order-2 order-lg-1">
-              
-                              <p class="text-center h1 fw-bold mb-5 mx-1 mx-md-4 mt-4">Sign up</p>
-              
-                              <form class="mx-1 mx-md-4">
-              
-                                <div class="d-flex flex-row align-items-center mb-4">
-                                    <i class="fa-solid fa-user me-3 fa-fw"></i>
-                                  <div class="form-outline flex-fill mb-0">
-                                    <input type="text" id="form3Example1c" class="form-control" placeholder="Your Name"/>
-                                 
-                                  </div>
-                                </div>
-              
-                                <div class="d-flex flex-row align-items-center mb-4">
-                                  <i class="fas fa-envelope fa-lg me-3  fa-fw"></i>
-                                  <div class="form-outline flex-fill mb-0">
-                                    <input type="email" id="form3Example3c" class="form-control" placeholder="Your Email"/>
-                                    
-                                  </div>
-                                </div>
-              
-                                <div class="d-flex flex-row align-items-center mb-4">
-                                  <i class="fas fa-lock fa-lg me-3 fa-fw"></i>
-                                  <div class="form-outline flex-fill mb-0">
-                                    <input type="password" id="form3Example4c" class="form-control" placeholder="Password" />
-                                  
-                                  </div>
-                                </div>
-              
-                                <div class="d-flex flex-row align-items-center mb-4">
-                                  <i class="fas fa-key fa-lg me-3 fa-fw"></i>
-                                  <div class="form-outline flex-fill mb-0">
-                                    <input type="password" id="form3Example4cd" class="form-control" placeholder="Repeat your password"/>
-                                    
-                                  </div>
-                                </div>
-              
-                                <div class="form-check d-flex justify-content-center mb-5">
-                                  <input class="form-check-input me-2" type="checkbox" value="" id="form2Example3c" />
-                                  <label class="form-check-label" for="form2Example3">
-                                    I agree all statements in <a href="#!">Terms of service</a>
-                                  </label>
-                                </div>
-              
-                                <div class="d-flex justify-content-center mx-4 mb-3 mb-lg-4">
-                                  <button type="button" class="btn btn-primary btn-lg">Register</button>
-                                </div>
-              
-                              </form>
-              
-                            </div>
-                            <div class="col-md-10 col-lg-6 col-xl-7 d-flex align-items-center order-1 order-lg-2">
-              
-                              <img src="./images/registration.png"
-                                class="img-fluid" alt="Sample image">
-              
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </section>
-        </div>
-       
-      </div>
-    </div>
-  </div>
 
-  <!-- modal end  -->
 
         <!-- Register section end  -->
 
+        <!-- Successfull Students section start  -->
+
+        <article class="container my-5">
+ 
+            <div class=" d-flex mb-5 justify-content-lg-start justify-content-center justify-content-md-center justify-content-sm-center">
+                <div class="w-75 ">
+                    <h1 class=" fw-bold display-5 text-lg-start  text-center ">
+    
+                        Meet Our Successfull Students
+    
+                    </h1>
+    
+                    <p class=" mt-4 text-lg-start  text-center">
+                        We know that each student is different, which makes each
+                        student unique, but this also makes
+                        it challenging to meet their needs.
+                </div>
+            </div>
+            <div>
+                <div class="row   g-4">
+                    <!-- 1 -->
+                    <div class="col-lg-3 col-md-6 col-sm-12">
+                        <div class="card">
+                            <img src="./images/student/student-1.png" class="card-img-top img-fluid h-auto w-auto" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title fw-bold">Awlad Hossain</h5>
+                                <p class="card-text">UIUX Designer
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- 2 -->
+                    <div class="col-lg-3 col-md-6 col-sm-12">
+                        <div class="card">
+                            <img src="./images/student/student-2.png" class="card-img-top img-fluid h-auto w-auto" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title fw-bold">Jannatul Islam
+                                </h5>
+                                <p class="card-text">Motion Design
+
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- 3 -->
+                    <div class="col-lg-3 col-md-6 col-sm-12 d-none d-md-block d-lg-block d-xl-block">
+                        <div class="card">
+                            <img src="./images/student/student-3.png" class="card-img-top img-fluid h-auto w-auto" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title fw-bold">Imran Hossain
+                                </h5>
+                                <p class="card-text">Graphic Designer
+
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                      <!-- 4 -->
+                      <div class="col-lg-3 col-md-6 col-sm-12 d-none d-md-block d-lg-block d-xl-block">
+                        <div class="card">
+                            <img src="./images/student/student-4.png" class="card-img-top img-fluid h-auto w-auto" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title fw-bold">Nishi Akter
+                                </h5>
+                                <p class="card-text">Web Developer
+
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                   
+                </div>
+
+                <div class="text-center py-3  d-block d-lg-block d-md-none ">
+                    <button class="btn btn-info ">
+                        <h5 class="m-0 px-3 py-2 fw-bold text-white ">View All</h5>
+                    </button>
+                </div>
+            </div>
+        </article>
+
+        <!-- Successfull Students section end  -->
 
 
 
 
-        
-
-  
-  
-  
 
 
 
@@ -478,7 +576,15 @@
 
 
 
-        
+
+
+
+
+
+
+
+
+
 
 
 
